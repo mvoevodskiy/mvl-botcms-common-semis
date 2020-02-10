@@ -1,0 +1,33 @@
+onlyBack:
+  buttons:
+    - common.btn.menu.back
+
+onlyMain:
+  buttons:
+    - common.btn.menu.main
+
+yesNo:
+  buttons:
+    - - common.btn.msg.yes
+      - common.btn.msg.no
+
+yesNoMain:
+  buttons:
+    - - common.btn.msg.yes
+      - common.btn.msg.no
+    - - common.btn.menu.main
+
+yesNoBack:
+  buttons:
+    - - common.btn.msg.yes
+      - common.btn.msg.no
+    - - common.btn.menu.back
+
+yesNoBackMain:
+  buttons:
+    - - common.btn.msg.yes
+      - common.btn.msg.no
+    - - common.btn.menu.back
+    - - common.btn.menu.main
+
+

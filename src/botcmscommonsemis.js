@@ -1,6 +1,6 @@
 const MVLoaderBase = require('mvloader/src/mvloaderbase');
 
-class MVLBlankSemis extends MVLoaderBase{
+class Botcmscommonsemis extends MVLoaderBase{
     static exportConfig = {
         ext: {
             classes: {
@@ -11,12 +11,11 @@ class MVLBlankSemis extends MVLoaderBase{
             configs: {
                 controllers: {},
                 handlers: {
-                    DBHandler: {
-                        sequelize: {},
-                        models: {
-                            // MVLExampleModel: require('./models/mvlblankexample'),
-                        }
-                    }
+                    BotHandler: {
+                        schemaFiles: [
+                            __dirname + '/botschemas/common.yml',
+                        ],
+                    },
                 },
                 semis: {},
             }
@@ -42,4 +41,4 @@ class MVLBlankSemis extends MVLoaderBase{
 
 }
 
-module.exports = MVLBlankSemis;
+module.exports = Botcmscommonsemis;
