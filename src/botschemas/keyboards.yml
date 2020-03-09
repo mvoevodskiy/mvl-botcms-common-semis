@@ -30,4 +30,5 @@ yesNoBackMain:
     - - common.btn.menu.back
     - - common.btn.menu.main
 
-
+clear:
+  clear: true
