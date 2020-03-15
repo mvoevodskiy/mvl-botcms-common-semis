@@ -5,7 +5,9 @@ class Botcmscommonsemis extends MVLoaderBase{
         ext: {
             classes: {
                 semis: {},
-                controllers: {},
+                controllers: {
+                    botcmsCommon: require('./controllers/commoncontroller'),
+                },
                 handlers: {},
             },
             configs: {
