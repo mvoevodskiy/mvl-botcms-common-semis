@@ -22,6 +22,11 @@ class MVLUsersController extends MVLoaderBase {
                         }
                     }
                     attachment.file = process.cwd() + '/' + attachment.file;
+                    for (let key in attachment) {
+                        if (attachment.hasOwnProperty(key) && key !== 'file') {
+                            attachment[key] = ctx.lexicon(attachment[key]);
+                        }
+                    }
                     parcel.attachments[type].push(attachment);
                 }
             }
