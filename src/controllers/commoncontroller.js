@@ -11,6 +11,7 @@ class MVLUsersController extends MVLoaderBase {
             return;
         }
         let parcel = new ctx.BC.config.classes.Parcel();
+        parcel.keyboard = (new ctx.BC.config.classes.Keyboard(ctx, this.MT.extract('step.keyboard', ctx.session))).build();
         for (let type in params) {
             if (params.hasOwnProperty(type)) {
                 parcel.attachments[type] = parcel.attachments[type] || [];
