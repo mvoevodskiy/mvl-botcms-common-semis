@@ -6,6 +6,11 @@ onlyMain:
   buttons:
     - common.btn.menu.main
 
+backMain:
+  buttons:
+    - common.btn.menu.back
+    - common.btn.menu.main
+
 yesNo:
   buttons:
     - - common.btn.msg.yes
