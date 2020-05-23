@@ -6,6 +6,8 @@ class MVLUsersController extends MVLoaderBase {
 
     reject = () => false;
 
+    clearMsg = ctx => ctx.Message.text = '';
+
     sendAttach = (ctx, params) => {
         if (typeof params !== 'object') {
             return;
