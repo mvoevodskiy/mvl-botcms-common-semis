@@ -11,6 +11,11 @@ backMain:
     - common.btn.menu.back
     - common.btn.menu.main
 
+skipMain:
+  buttons:
+    - common.btn.action.skip
+    - common.btn.menu.main
+
 yesNo:
   buttons:
     - - common.btn.msg.yes
