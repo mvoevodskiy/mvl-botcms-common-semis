@@ -38,6 +38,10 @@ class MVLUsersController extends MVLoaderBase {
         return ctx.reply(parcel);
     }
 
+    botExit = (ctx) => {
+        setTimeout(() => process.exit(), 3000);
+    }
+
 }
 
 module.exports = MVLUsersController;
