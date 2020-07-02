@@ -107,6 +107,7 @@ ru:
         find: 🔍 Найти
         search: 🔍 Поиск
         skip: ⭕️ Пропустить
+        cancel: 🚫 Отменить
         final: ✅ Завершить
         enable_disable: 🌓 Включить / Отключить
         publish: 🔏 Опубликовать
@@ -123,5 +124,6 @@ ru:
         prev: ⬅️ Назад
     section:
       section: Раздел
+      mainMenu: Главное меню
       help: Раздел помощи
       manage: Раздел настроек и параметров
