@@ -101,8 +101,10 @@ ru:
       action:
         register: 📲 Зарегистрироваться
         add: 📥 Добавить
+        create: ✅ Создать
         accept: ✅ Принять
         reject: ⛔️ Отклонить
+        clear: 🗑 Удалить
         remove: 🗑 Удалить
         find: 🔍 Найти
         search: 🔍 Поиск
