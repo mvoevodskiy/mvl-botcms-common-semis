@@ -1,57 +1,55 @@
-const {MVLoaderBase} = require('mvloader');
+const { MVLoaderBase } = require('mvloader')
 
 class MVLUsersController extends MVLoaderBase {
+  constructor (...config) {
+    super(...config)
 
-    constructor (...config) {
-        super(...config)
+    this.caption = 'botcmsCommon'
 
-        this.messageFromAnswers = async (ctx, params) => {
-            const fields = ctx.getAnswers(params.thread)
-            // console.log('MESSAGE FROM ANSWERS. LEX', params.lexicon, 'FIELDS', fields)
-            return ctx.lexicon(params.lexicon, fields)
-        }
+    this.messageFromAnswers = async (ctx, params) => {
+      const fields = ctx.getAnswers(params.thread)
+      // console.log('MESSAGE FROM ANSWERS. LEX', params.lexicon, 'FIELDS', fields)
+      return ctx.lexicon(params.lexicon, fields)
     }
 
-    caption = 'botcmsCommon';
+    this.reject = () => false
+    this.pass = () => true
+    this.clearMsg = ctx => { ctx.Message.text = '' }
 
-    reject = () => false;
-
-    clearMsg = ctx => ctx.Message.text = '';
-
-    sendAttach = (ctx, params) => {
-        if (typeof params !== 'object') {
-            return;
-        }
-        let parcel = new ctx.BC.config.classes.Parcel();
-        parcel.keyboard = (new ctx.BC.config.classes.Keyboard(ctx, this.MT.extract('step.keyboard', ctx.session))).build();
-        for (let type in params) {
-            if (params.hasOwnProperty(type)) {
-                parcel.attachments[type] = parcel.attachments[type] || [];
-                let attachments = this.MT.makeArray(params[type]);
-                for (let attachment of attachments) {
-                    if (this.MT.isString(attachment)) {
-                        attachment = {
-                            file: attachment,
-                        }
-                    }
-                    attachment.file = process.cwd() + '/' + attachment.file;
-                    for (let key in attachment) {
-                        if (attachment.hasOwnProperty(key) && key !== 'file') {
-                            attachment[key] = ctx.lexicon(attachment[key]);
-                        }
-                    }
-                    parcel.attachments[type].push(attachment);
-                }
+    this.sendAttach = (ctx, params) => {
+      if (typeof params !== 'object') {
+        return
+      }
+      const parcel = new ctx.BC.config.classes.Parcel()
+      parcel.keyboard = (new ctx.BC.config.classes.Keyboard(ctx, this.MT.extract('step.keyboard', ctx.session))).build()
+      for (const type in params) {
+        if (Object.prototype.hasOwnProperty.call(params, type)) {
+          parcel.attachments[type] = parcel.attachments[type] || []
+          const attachments = this.MT.makeArray(params[type])
+          for (let attachment of attachments) {
+            if (this.MT.isString(attachment)) {
+              attachment = {
+                file: attachment
+              }
             }
+            attachment.file = process.cwd() + '/' + attachment.file
+            for (const key in attachment) {
+              if (Object.prototype.hasOwnProperty.call(attachment, key) && key !== 'file') {
+                attachment[key] = ctx.lexicon(attachment[key])
+              }
+            }
+            parcel.attachments[type].push(attachment)
+          }
         }
-        // console.log('COMMON SEMIS. SEND ATTACHMENTS: ', parcel.attachments);
-        return ctx.reply(parcel);
+      }
+      // console.log('COMMON SEMIS. SEND ATTACHMENTS: ', parcel.attachments);
+      return ctx.reply(parcel)
     }
 
-    botExit = (ctx) => {
-        setTimeout(() => process.exit(), 3000);
+    this.botExit = (ctx) => {
+      setTimeout(() => process.exit(), 3000)
     }
-
+  }
 }
 
-module.exports = MVLUsersController;
+module.exports = MVLUsersController
