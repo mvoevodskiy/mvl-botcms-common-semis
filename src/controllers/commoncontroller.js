@@ -2,6 +2,16 @@ const {MVLoaderBase} = require('mvloader');
 
 class MVLUsersController extends MVLoaderBase {
 
+    constructor (...config) {
+        super(...config)
+
+        this.messageFromAnswers = async (ctx, params) => {
+            const fields = ctx.getAnswers(params.thread)
+            // console.log('MESSAGE FROM ANSWERS. LEX', params.lexicon, 'FIELDS', fields)
+            return ctx.lexicon(params.lexicon, fields)
+        }
+    }
+
     caption = 'botcmsCommon';
 
     reject = () => false;
