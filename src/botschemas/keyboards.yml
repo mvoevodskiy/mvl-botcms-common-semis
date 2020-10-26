@@ -1,42 +1,97 @@
 onlyBack:
   buttons:
     - common.btn.menu.back
+onlyBackInline:
+  buttons:
+    - common.btn.menu.back
+  options:
+    - inline
 
 onlyMain:
   buttons:
     - common.btn.menu.main
+onlyMainInline:
+  buttons:
+    - common.btn.menu.main
+  options:
+    - inline
+
 
 backMain:
   buttons:
     - common.btn.menu.back
     - common.btn.menu.main
+backMainInline:
+  buttons:
+    - common.btn.menu.back
+    - common.btn.menu.main
+  options:
+    - inline
+
 
 cancelMain:
   buttons:
     - common.btn.action.cancel
     - common.btn.menu.main
+cancelMainInline:
+  buttons:
+    - common.btn.action.cancel
+    - common.btn.menu.main
+  options:
+    - inline
+
 
 skipMain:
   buttons:
     - common.btn.action.skip
     - common.btn.menu.main
+skipMainInline:
+  buttons:
+    - common.btn.action.skip
+    - common.btn.menu.main
+  options:
+    - inline
+
 
 yesNo:
   buttons:
     - - common.btn.msg.yes
       - common.btn.msg.no
+yesNoInline:
+  buttons:
+    - - common.btn.msg.yes
+      - common.btn.msg.no
+  options:
+    - inline
+
 
 yesNoMain:
   buttons:
     - - common.btn.msg.yes
       - common.btn.msg.no
     - - common.btn.menu.main
+yesNoMainInline:
+  buttons:
+    - - common.btn.msg.yes
+      - common.btn.msg.no
+    - - common.btn.menu.main
+  options:
+    - inline
+
 
 yesNoBack:
   buttons:
     - - common.btn.msg.yes
       - common.btn.msg.no
     - - common.btn.menu.back
+yesNoBackInline:
+  buttons:
+    - - common.btn.msg.yes
+      - common.btn.msg.no
+    - - common.btn.menu.back
+  options:
+    - inline
+
 
 yesNoBackMain:
   buttons:
@@ -44,6 +99,15 @@ yesNoBackMain:
       - common.btn.msg.no
     - - common.btn.menu.back
     - - common.btn.menu.main
+yesNoBackMainInline:
+  buttons:
+    - - common.btn.msg.yes
+      - common.btn.msg.no
+    - - common.btn.menu.back
+    - - common.btn.menu.main
+  options:
+    - inline
+
 
 clear:
   clear: true
