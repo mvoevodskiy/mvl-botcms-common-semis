@@ -124,6 +124,13 @@ ru:
         no: ❌ Нет
         next: ➡️ Далее
         prev: ⬅️ Назад
+      days:
+        yesterday: Вчера
+        today: Сегодня
+        tomorrow: Завтра
+        thisWeek: На этой неделе
+        nextWeek: На следующей неделе
+        afterWeek: Через неделю
     section:
       section: Раздел
       mainMenu: Главное меню
