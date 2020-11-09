@@ -49,6 +49,10 @@ class MVLUsersController extends MVLoaderBase {
     this.botExit = (ctx) => {
       setTimeout(() => process.exit(), 3000)
     }
+
+    this.answerCB = async (ctx, params) => {
+      await ctx.answerCB(await ctx.lexicon(params.lexicon, params))
+    }
   }
 }
 
