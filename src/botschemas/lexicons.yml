@@ -104,8 +104,9 @@ ru:
         create: ✅ Создать
         accept: ✅ Принять
         reject: ⛔️ Отклонить
-        clear: 🗑 Удалить
+        clear: 🗑 Очистить
         remove: 🗑 Удалить
+        show: 👀 Показать
         find: 🔍 Найти
         search: 🔍 Поиск
         skip: ⭕️ Пропустить
