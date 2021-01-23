@@ -53,6 +53,14 @@ class MVLUsersController extends MVLoaderBase {
     this.answerCB = async (ctx, params) => {
       await ctx.answerCB(await ctx.lexicon(params.lexicon, params))
     }
+
+    this.storeMessageAsFormAnswer = (ctx) => {
+      ctx.session.form = ctx.session.form || {}
+      ctx.session.form.formAnswerIds = ctx.session.form.formAnswerIds || []
+      if (ctx.session.form.formAnswerIds.indexOf(ctx.Message.id) === -1) {
+        ctx.session.form.formAnswerIds.push(ctx.Message.id)
+      }
+    }
   }
 }
 
