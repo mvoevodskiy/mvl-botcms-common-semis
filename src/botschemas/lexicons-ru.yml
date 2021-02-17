@@ -11,6 +11,9 @@ common:
     profile:
       edit: Редактировать профиль
       fields:
+        login: Логин
+        username: Имя пользователя
+        password: Пароль
         firstName: Имя
         secondName: Отчество
         lastName: Фамилия
@@ -37,6 +40,9 @@ common:
         wa: WhatsApp
         vb: Viber
       requests:
+        login: Введите логин
+        username: Введите имя пользователя
+        password: Введите пароль
         firstName: Введите имя
         secondName: Введите отчество
         lastName: Введите фамилию
