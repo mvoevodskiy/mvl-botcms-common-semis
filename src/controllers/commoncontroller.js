@@ -61,6 +61,8 @@ class MVLUsersController extends MVLoaderBase {
         ctx.session.form.formAnswerIds.push(ctx.Message.id)
       }
     }
+
+    this.removeUserMessage = (ctx) => ctx.remove(ctx.Message.id)
   }
 }
 
