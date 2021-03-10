@@ -18,6 +18,7 @@ common:
         secondName: Отчество
         lastName: Фамилия
         gender: Пол
+        language: Язык
         phone: Номер телефона
         mobilephone: Номер мобильного телефона
         country: Страна
@@ -47,6 +48,7 @@ common:
         secondName: Введите отчество
         lastName: Введите фамилию
         gender: Укажите пол
+        language: Укажите язык
         phone: Введите номер телефона
         mobilephone: Введите номер мобильного телефона
         country: Введите название страны
@@ -92,6 +94,34 @@ common:
     import_started: Импорт файла запущен, по завершении обновления записей в БД будет отправлено уведомление
     export_finished: Экспорт записей завершен, файл отправлен
     import_finished: Импорт файла завершен, записи в БД обновлены
+    languages:
+      cn: 🇨🇳 Китайский
+      de: 🇩🇪 Немецкий
+      en: 🇬🇧 Английский
+      es: 🇪🇸 Испанский
+      fi: 🇫🇮 Финский
+      fr: 🇫🇷 Французский
+      jp: 🇯🇵 Японский
+      ru: 🇷🇺 Русский
+    languagesISO:
+      cn: 🇨🇳 CN
+      de: 🇩🇪 DE
+      en: 🇬🇧 EN
+      es: 🇪🇸 ES
+      fi: 🇫🇮 FI
+      fr: 🇫🇷 FR
+      jp: 🇯🇵 JP
+      ru: 🇷🇺 RU
+    countries:
+      cn: 🇨🇳 Китай
+      de: 🇩🇪 Германия
+      en: 🇬🇧 Великобритания
+      es: 🇪🇸 Испания
+      fi: 🇫🇮 Финляндия
+      fr: 🇫🇷 Франция
+      jp: 🇯🇵 Япония
+      ru: 🇷🇺 Россия
+
   btn:
     menu:
       main: 📱 Главное меню
@@ -107,6 +137,7 @@ common:
       forWhatThis: ❔ Для чего это?
       blackList: 🧟‍♂️🧟‍♂️ Черный список
       feedback: 📝 Обратная связь
+      language: 🌐 Язык
     action:
       register: 📲 Зарегистрироваться
       add: 📥 Добавить
@@ -146,7 +177,7 @@ common:
         male: 👨 Мужской
         female: 👩‍🦱 Женский
       male: 👨 Мужчина
-      female: 👩‍🦱 Женщинв
+      female: 👩‍🦱 Женщина
   section:
     section: Раздел
     mainMenu: Главное меню
