@@ -1,1 +1,4 @@
-{}
+common:
+  msg:
+    action:
+      find: Enter a search query
