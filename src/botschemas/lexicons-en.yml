@@ -1,1 +1,154 @@
-{}
+common:
+  msg:
+    action:
+      find: Enter a search query
+      choose_from_list: Select from the list
+      date_start: Enter the start date
+      date_end: Enter the end date
+      unknown: Unknown action
+    reports: Reports
+    registrationSuccess: Congratulations, the registration was successful!
+    export_started: The export of records is started, and the file will be sent when
+      it is finished
+    requests:
+      start: Answer a few questions.
+    profile:
+      fields:
+        secondName: Middle name
+        password: Password
+        gender: Gender
+        region: Region
+        country: Country
+        lastName: Surname
+        floor: Floor
+        fb: Facebook
+        ig: Instagram
+        tg: Telegram
+        tt: TikTok
+        tw: Twittter
+        vb: Viber
+        wa: WhatsApp
+        address: Address
+        vk: VK
+        city: City
+        firstName: Name
+        username: User Name
+        login: Login
+        street: Street
+        building: Number of the house (building)
+        flat: Apartment number
+        room: Room number
+        office: Office number
+        phone: Phone number
+        ok: OK
+        mobilephone: Mobile phone number
+      edit: Edit your profile
+      requests:
+        firstName: Enter a name
+        login: Enter your login
+        password: Enter your password
+        gender: Set the gender
+        floor: Enter the floor
+        address: Enter the address
+        city: Enter the city
+        region: Enter the name of the region
+        country: Enter the country name
+        street: Enter the street name
+        building: Enter the number of the house (building)
+        flat: Enter the apartment number
+        room: Enter the room number
+        office: Enter the office number
+        phone: Enter your phone number
+        secondName: Enter your middle name
+        vk: Enter the link to your VK profile
+        fb: Enter the link to your Facebook profile
+        ig: Enter the link to your Instagram profile
+        tt: Enter the link to your TikTok profile
+        tw: Enter a link to your Twitter profile
+        ok: Enter a link to your profile about OK
+        vb: Enter the phone number link in Viber
+        lastName: Enter your surname
+        username: Enter the username
+        mobilephone: Enter your mobile phone number
+        tg: Enter the link to your Telegram profile
+        wa: Enter the phone number link in WhatsApp
+    registrationFailure: An error during registration
+    successRegister: Registration was successful!
+    saved: Saved
+    export_finished: Record export completed, file sent
+    mainChooseAction: You are in the main menu. Select the section or action you are
+      interested in.
+    welcome: Welcome!
+    welcomeRegister: "Welcome!\nTo get started, complete the registration.\n"
+    import_started: The file import is started, and a notification will be sent when
+      the database records are updated
+    details: Information about the object
+    unknown_try: Not recognized, please repeat
+    nothing:
+      selected: Nothing selected
+      found: Nothing found
+    nothing_found: Nothing found
+    registration: 📲 Check
+    import_finished: File import completed, DB entries updated
+    cityChooseFromListOrEnter: "Select a city from the list.\nIf the shown cities\
+      \ don't fit or don't exist, enter a new query.\n"
+  section:
+    section: Section
+    help: Help section
+    mainMenu: Main Menu
+    manage: Settings and parameters section
+  btn:
+    days:
+      today: Today
+      afterWeek: After week
+      yesterday: Yesterday
+      tomorrow: Tomorrow
+      nextWeek: On next week
+      thisWeek: On this week
+    action:
+      publish_unpublish: ⏯ Publish / Remove from publication
+      enable_disable: 🌓 On/ Off
+      reject: ⛔️ Reject
+      final: ✅ Complete
+      accept: ✅ Accept
+      create: ✅ Create
+      editProfile: ✍ ️ Edit your profile
+      edit: ✏️ Edit
+      addBlackList: ➕🧟‍♂️️ Add to Black list
+      skip: ⭕️ Skip
+      show: 👀 Show
+      restartBot: 💫 Restart the bot
+      add: 📥 Add
+      register: 📲 Register
+      find: 🔍 Find
+      search: 🔍 Search
+      publish: 🔏 Publish
+      unpublish: 🔐 Unpublish
+      clear: 🗑 Clear
+      remove: 🗑 Delete
+      cancel: 🚫 Cancel
+    menu:
+      main: 📱 Main Menu
+      faq: ⁉️ FAQ
+      info: ℹ️ Info
+      back: ↩️ Back
+      settings: ⚙️ Settings
+      manage: ⚙️ Management
+      forWhatThis: ❔ What is it for?
+      aboutBot: 👁‍🗨 About this bot
+      reports: 📊 Reports
+      feedback: 📝 Feedback
+      registration: 📲 Registration
+      aboutProject: 🗨 About the project
+      blackList: 🧟 🧟 Blacklist
+    msg:
+      yes: ✅ Yes
+      no: ❌ No
+      next: ➡️ Next
+      prev: ⬅️ Back
+    human:
+      gender:
+        male: 👨 Male
+        female: 👩‍🦱 Female
+      male: 👨 Male
+      female: 👩‍🦱 Women

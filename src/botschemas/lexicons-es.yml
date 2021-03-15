@@ -1,0 +1,155 @@
+common:
+  msg:
+    profile:
+      fields:
+        ig: Instagram
+        tg: Telegram
+        tt: TikTok
+        tw: Twittter
+        vb: Viber
+        wa: WhatsApp
+        fb: Facebook
+        address: Dirección
+        login: login
+        secondName: Nombre patronímico
+        password: Contraseña
+        phone: Número de Teléfono
+        gender: Género
+        region: Región
+        country: País
+        street: Nombre de la calle
+        building: Número de casa (estructura)
+        flat: Número de Apartamento
+        floor: Piso
+        vk: VK
+        room: Número de habitación
+        office: Número de oficina
+        ok: OK
+        mobilephone: Número de Teléfono móvil
+        lastName: Apellido
+        city: Ciudad
+        firstName: Nombre
+        username: Nombre de usuario
+      requests:
+        floor: Introduzca el piso
+        username: Introduzca un nombre de usuario
+        login: Ingrese el Inicio de sesión
+        password: Introduzca la contraseña
+        firstName: Escriba un nombre
+        region: Introduzca el nombre de la región
+        country: Introduzca el nombre del país
+        phone: Introduzca el número de Teléfono
+        secondName: Introduzca el segundo nombre
+        lastName: Introduzca su apellido
+        gender: Especifique el género
+        address: Introduzca la dirección
+        street: Escriba el nombre de la calle
+        flat: Introduzca el número de Apartamento
+        room: Introduzca el número de habitación
+        office: Ingrese el número de la oficina
+        vk: Ingrese el enlace al perfil de VK
+        fb: Introduzca el enlace de perfil de Facebook
+        tg: Ingrese el enlace al perfil en Telegram
+        tw: Ingresa el enlace a tu perfil de Twitter
+        ok: Ingrese el enlace de perfil en OK
+        tt: Ingrese el enlace de perfil en TikTok
+        vb: Introduzca el enlace número de Teléfono en Viber
+        wa: Introduzca el enlace número de Teléfono en WhatsApp
+        city: Entrar en la ciudad
+        building: Introduzca el número de la casa (estructura)
+        mobilephone: Introduzca el número de Teléfono móvil
+        ig: Ingresa el enlace de tu perfil de Instagram
+      edit: Editar perfil
+    action:
+      find: Escriba una consulta para buscar
+      date_start: Introduzca la fecha de Inicio
+      date_end: Introduzca la fecha de finalización
+      choose_from_list: Seleccione de la lista
+      unknown: Acción desconocida
+    welcome: ¡Bienvenido!
+    welcomeRegister: "¡Bienvenido!\nPara comenzar a facturar.\n"
+    details: Información del objeto
+    unknown_try: No reconocido, repita
+    nothing:
+      selected: Nada seleccionado
+      found: No se encontró nada
+    nothing_found: No se encontró nada
+    registrationSuccess: ¡Felicidades, el registro fue exitoso!
+    registrationFailure: Se produjo un error al registrarse
+    saved: Guardado
+    registration: 📲 Registro
+    import_finished: La importación del archivo se ha completado, las entradas en
+      la base de datos se han actualizado
+    import_started: La importación del archivo se ha iniciado y se enviará una notificación
+      cuando se completen las actualizaciones de los registros en la base de datos
+    reports: Informes
+    successRegister: ¡El registro fue exitoso!
+    export_finished: Exportación de registros completada, archivo enviado
+    requests:
+      start: Responda algunas preguntas.
+    export_started: La exportación de registros se ha iniciado y se enviará el archivo
+      cuando se complete
+    mainChooseAction: Estás en el menú principal. Seleccione la sección o acción que
+      le interese.
+    cityChooseFromListOrEnter: "Seleccione una ciudad de la lista.\nSi las ciudades\
+      \ mostradas no son adecuadas o no, escriba una nueva consulta.\n"
+  btn:
+    menu:
+      back: ↩️ Volver
+      manage: ⚙️ Gestión
+      main: 📱 Menú principal
+      settings: ⚙️ Ajustes
+      forWhatThis: ❔ ¿Para qué es?
+      aboutBot: 👁‍🗨 De este bot
+      reports: 📊 Informes
+      feedback: 📝 Realimentación
+      registration: 📲 Регистрация
+      aboutProject: 🗨 Acerca del proyecto
+      faq: ⁉️ Preguntas frecuentes
+      info: ℹ️ Información
+      blackList: 🧟‍♂️🧟‍♂️ Lista negra
+    action:
+      create: ✅ Crear
+      add: 📥 Agregar
+      register: 📲 Registrarse
+      final: ✅ Finalizar
+      skip: ⭕️ Omitir
+      show: 👀 Mostrar
+      find: 🔍 Encontrar
+      search: 🔍 Búsqueda
+      clear: 🗑 Limpiar
+      remove: 🗑 Eliminar
+      cancel: 🚫 Cancelar
+      editProfile: ✍️ Editar perfil
+      edit: ✏️ Corregir
+      addBlackList: ➕🧟‍♂️️ Añadir en lista negra
+      enable_disable: 🌓 Activar / Desactivar
+      restartBot: 💫 Reiniciar el bot
+      publish: 🔏 Publicar
+      unpublish: 🔐 Retirar de la publicación
+      publish_unpublish: ⏯ Publicar / Retirar de la publicación
+      reject: ⛔️ Rechazar
+      accept: ✅ Adoptar
+    days:
+      yesterday: Ayer
+      tomorrow: Mañana
+      nextWeek: La próxima semana
+      thisWeek: Esta semana
+      today: Hoy
+      afterWeek: En una semana
+    msg:
+      yes: ✅ Sí
+      no: ❌ No hay
+      next: ➡️ A continuación
+      prev: ⬅️ Atrás
+    human:
+      gender:
+        male: 👨 Masculino
+        female: 👩‍🦱 Femenino
+      male: 👨 Hombre
+      female: 👩‍🦱 Mujer
+  section:
+    section: Sección
+    manage: Sección de configuración y configuración
+    help: Sección de ayuda
+    mainMenu: Menú principal
