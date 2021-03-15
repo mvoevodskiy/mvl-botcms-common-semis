@@ -1,1 +1,16 @@
-{}
+common:
+  msg:
+    profile:
+      fields:
+        ig: Instagram
+        tg: Telegram
+        tt: TikTok
+        tw: Twittter
+        vb: Viber
+        wa: WhatsApp
+        fb: Facebook
+        address: Dirección
+      requests:
+        floor: Introduzca el piso
+    action:
+      find: Escriba una consulta para buscar
