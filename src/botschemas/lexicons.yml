@@ -1,1 +1,3 @@
 ru: $FILE ./lexicons-ru.yml
+en: $FILE ./lexicons-en.yml
+es: $FILE ./lexicons-es.yml
