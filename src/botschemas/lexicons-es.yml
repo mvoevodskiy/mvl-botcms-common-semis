@@ -30,6 +30,7 @@ common:
         city: Ciudad
         firstName: Nombre
         username: Nombre de usuario
+        language: Idioma
       requests:
         floor: Introduzca el piso
         username: Introduzca un nombre de usuario
@@ -59,6 +60,7 @@ common:
         building: Introduzca el número de la casa (estructura)
         mobilephone: Introduzca el número de Teléfono móvil
         ig: Ingresa el enlace de tu perfil de Instagram
+        language: Especifique el idioma
       edit: Editar perfil
     action:
       find: Escriba una consulta para buscar
@@ -93,6 +95,33 @@ common:
       le interese.
     cityChooseFromListOrEnter: "Seleccione una ciudad de la lista.\nSi las ciudades\
       \ mostradas no son adecuadas o no, escriba una nueva consulta.\n"
+    languages:
+      cn: 🇨🇳 Chino
+      en: 🇬🇧 Inglés
+      de: 🇩🇪 Alemán
+      es: 🇪🇸 Español
+      fi: 🇫🇮 Finlandesa
+      fr: 🇫🇷 Francesa
+      jp: 🇯🇵 Japonesa
+      ru: 🇷🇺 Rusa
+    languagesISO:
+      jp: 🇯🇵 JP
+      cn: 🇨🇳 CN
+      de: 🇩🇪 DE
+      en: 🇬🇧 EN
+      es: 🇪🇸 ES
+      fi: 🇫🇮 FI
+      fr: 🇫🇷 FR
+      ru: 🇷🇺 RU
+    countries:
+      jp: 🇯🇵 Japón
+      cn: 🇨🇳 China
+      de: 🇩🇪 Alemania
+      en: 🇬🇧 Gran Bretaña
+      es: 🇪🇸 España
+      fi: 🇫🇮 Finlandia
+      fr: 🇫🇷 Francia
+      ru: 🇷🇺 Rusia
   btn:
     menu:
       back: ↩️ Volver
@@ -108,6 +137,7 @@ common:
       faq: ⁉️ Preguntas frecuentes
       info: ℹ️ Información
       blackList: 🧟‍♂️🧟‍♂️ Lista negra
+      language: 🌐 Idioma
     action:
       create: ✅ Crear
       add: 📥 Agregar
