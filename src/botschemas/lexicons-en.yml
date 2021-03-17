@@ -42,6 +42,7 @@ common:
         phone: Phone number
         ok: OK
         mobilephone: Mobile phone number
+        language: Language
       edit: Edit your profile
       requests:
         firstName: Enter a name
@@ -72,6 +73,7 @@ common:
         mobilephone: Enter your mobile phone number
         tg: Enter the link to your Telegram profile
         wa: Enter the phone number link in WhatsApp
+        language: Enter language
     registrationFailure: An error during registration
     successRegister: Registration was successful!
     saved: Saved
@@ -92,6 +94,33 @@ common:
     import_finished: File import completed, DB entries updated
     cityChooseFromListOrEnter: "Select a city from the list.\nIf the shown cities\
       \ don't fit or don't exist, enter a new query.\n"
+    languages:
+      de: 🇩🇪 Deutsche
+      cn: 🇨🇳 Chinese
+      es: 🇪🇸 Spanish
+      fi: 🇫🇮 Finnish
+      fr: 🇫🇷 French
+      en: 🇬🇧 English
+      jp: 🇯🇵 Japanese
+      ru: 🇷🇺 Russian
+    languagesISO:
+      de: 🇩🇪 DE
+      es: 🇪🇸 ES
+      fi: 🇫🇮 FI
+      fr: 🇫🇷 FR
+      en: 🇬🇧 EN
+      jp: 🇯🇵 JP
+      ru: 🇷🇺 RU
+      cn: 🇨🇳 CN
+    countries:
+      de: 🇩🇪 Germany
+      es: 🇪🇸 Spain
+      fi: 🇫🇮 Finland
+      fr: 🇫🇷 France
+      en: 🇬🇧 Great Britain
+      jp: 🇯🇵 Japan
+      ru: 🇷🇺 Russia
+      cn: 🇨🇳 China
   section:
     section: Section
     help: Help section
@@ -141,6 +170,7 @@ common:
       registration: 📲 Registration
       aboutProject: 🗨 About the project
       blackList: 🧟 🧟 Blacklist
+      language: 🌐 Language
     msg:
       yes: ✅ Yes
       no: ❌ No
