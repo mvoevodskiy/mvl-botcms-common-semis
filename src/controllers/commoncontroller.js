@@ -1,4 +1,5 @@
 const { MVLoaderBase } = require('mvloader')
+const mt = require('mvtools')
 
 class MVLUsersController extends MVLoaderBase {
   constructor (...config) {
@@ -63,6 +64,13 @@ class MVLUsersController extends MVLoaderBase {
     }
 
     this.removeUserMessage = (ctx) => ctx.remove(ctx.Message.id)
+  }
+
+  async returnMsgLengthMsg (ctx, params = {}) {
+    const lexicon = params.lexicon
+    const values = mt.merge(params, { length: ctx.msg.length })
+    console.log('RETURN MSG LENGTH MSG. VALUES:', values)
+    return await ctx.lexicon(lexicon, values)
   }
 }
 
